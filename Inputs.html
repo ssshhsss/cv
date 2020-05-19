@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fill the Form</title>
+  </head>
+  <body>
+    <!-- action of form sends mailto that email with encoding type plain text, coz with encoding text will look messedup-->
+    <form action="mailt:shreedeep.patil@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name</label> <!--adds Label-->
+      <input type="text" name="yourName" value=""><br> <!--creates input field of type text, yourName is value in which name stores-->
+      <label>Your Email</label>
+      <input type="email" name="yourEmail" value=""><br> <!--creates input field of type email , only email is considered-->
+      <label>Upload your resume</label>
+      <input type="file" name="" value=""><br> <!--creates input field of type file which can be chosen from pc-->
+      <label>Enter your BirthDate</label>
+      <input type="date" name="" value=""><br> <!--creates input field of type date which displays calender-->
+      <label>Do you wish to participate in lectures</label>
+      <input type="radio" name="" value=""><br> <!--creates input field of type radio , like round checkbox-->
+      <label>Your Range</label>
+      <input type="range" name="" value=""><br> <!--creates input field of type range which displays slider-->
+      <label>Your paasword for hacking</label>
+      <input type="password" name="" value=""><br> <!--creates input field of type password which hides characterss-->
+      <textarea name="yourMessage" rows="8" cols="80"></textarea><br> <!--creates text area of size-->
+      <label>Enable email subscription</label>
+      <input type="checkbox" name="" value=""><br> <!--creates input field of type checkbox-->
+      <input type="submit" name="" value="Submit"> <!--creates input field of type submit, which creates submit button-->
+    </form>
+    
+  </body>
+</html>
